@@ -1,7 +1,7 @@
 import React from "react";
 import { Spin } from "antd";
 
-const Loader = () => (
+export const Loader = () => (
   <div className="loader">
     <Spin />
   </div>
